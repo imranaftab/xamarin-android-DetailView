@@ -1,0 +1,12 @@
+NKitchen.DishDetail, NKitchen;md52040472892218b7c57920789233a5664.DishDetail
+NKitchen.DishDetail, NKitchen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52040472892218b7c57920789233a5664.DishDetail
+NKitchen.DishDetail;md52040472892218b7c57920789233a5664.DishDetail
+nkitchen.DishDetail;md52040472892218b7c57920789233a5664.DishDetail
+NKitchen.MainActivity, NKitchen;md52040472892218b7c57920789233a5664.MainActivity
+NKitchen.MainActivity, NKitchen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52040472892218b7c57920789233a5664.MainActivity
+NKitchen.MainActivity;md52040472892218b7c57920789233a5664.MainActivity
+nkitchen.MainActivity;md52040472892218b7c57920789233a5664.MainActivity
+NKitchen.NKitchenMenu, NKitchen;md52040472892218b7c57920789233a5664.NKitchenMenu
+NKitchen.NKitchenMenu, NKitchen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52040472892218b7c57920789233a5664.NKitchenMenu
+NKitchen.NKitchenMenu;md52040472892218b7c57920789233a5664.NKitchenMenu
+nkitchen.NKitchenMenu;md52040472892218b7c57920789233a5664.NKitchenMenu

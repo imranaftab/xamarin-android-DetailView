@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="NKitchen.NKitchen" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="NKitchen" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="Seekh Kabab" android:name="md52040472892218b7c57920789233a5664.DishDetail">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="NKitchen" android:name="md52040472892218b7c57920789233a5664.MainActivity" />
+    <activity android:label="Menu" android:name="md52040472892218b7c57920789233a5664.NKitchenMenu" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="NKitchen.NKitchen.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.NKitchen.NKitchen" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#00bfff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1" >
+  <LinearLayout 
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingLeft="20dp"
+      android:paddingTop="20dp"
+      android:paddingRight="20dp">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_height="100dp"
+        android:id="@+id/dishImage"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Dish Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dishNameTextView"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#30ff00" />
+    <TextView
+        android:text="Dish Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dishDescriptionTextView"
+        android:inputType="textMultiLine"
+        android:paddingTop="20dp"
+        android:textSize="12dp"
+        android:textColor="@android:color/background_light" />
+    <TextView
+        android:text="Dish Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dishPriceTextView"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="10dp">
+      <Button
+          android:text="Cancel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/btnCancel"
+          android:layout_centerInParent="false"
+          android:layout_centerVertical="true"
+          android:layout_alignParentLeft="true" />
+      <EditText
+          android:text="1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/itemsEditText"
+          android:layout_alignParentEnd="false"
+          android:layout_centerInParent="true"
+          android:layout_centerHorizontal="true"
+          android:textColor="@android:color/black" />
+      <Button
+          android:text="Buy"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/btnBuy"
+          android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+  </LinearLayout>
+</ScrollView>
